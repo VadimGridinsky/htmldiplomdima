@@ -16,6 +16,7 @@ a{
 }
 ul,li{
     list-style: none;
+    padding: 0;
 }
 .wrapper{
     width: 1856px;
@@ -84,20 +85,26 @@ ul,li{
  padding: 18px 32px;
  border: none;
 }
-.bread{
+.section-title{
+    text-align: center;
 }
 .cards{
     display: flex;
     justify-content: space-between;
-    align-self:center;
+   
 }
 .cards-main{
     
 }
 .cards-list{
+    border: 1px solid #E0E0E0;
+    padding: 0;
+    margin: 0px 13px;
 }
 .cards-list-item-top{
     position: relative;
+   
+    
 }
 .cards-list-item-img{
 
