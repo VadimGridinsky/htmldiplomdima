@@ -4,6 +4,7 @@
     
 } 
 body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Gotham Pro';
@@ -29,9 +30,14 @@ ul,li{
     margin-right:  240px;
     margin-left: 240px;
 }
+.header{
+  
+}
 .header-top{
+    
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .header-list{
@@ -43,8 +49,11 @@ ul,li{
     font-weight: bold;
     line-height: 15px;
     color: #0A0A0A;
-    margin: 40px 10px;
+    margin: 0px 10px;
 }  
+.header-contacts{
+    margin-top: 20px;
+}
 .header-contacts-list-item{
     font-size: 18px;
     font-weight: bold;
@@ -53,6 +62,7 @@ ul,li{
     
 }
 .header-middle{
+    margin-top: 20px;
     position: relative;
 }
 .header-middle-background{
@@ -103,6 +113,7 @@ main{
     border: 1px solid #E0E0E0;
     padding: 0;
     margin: 0px 13px;
+    border-radius: 8px;
 }
 .cards-list-item-top{
     position: relative;
@@ -116,6 +127,14 @@ main{
 .cards-list-item-text{
     position: absolute;
     top: 1px;
+}
+.cards-mid-list-item{
+    margin-left: 32px;
+    margin-top: 5px;
+}
+.cards-mid-list-item-first{
+    margin-top: 40px;
+    margin-bottom: 16px;
 }
 .cards-list-item-title{
     margin-left: 40px;
@@ -141,6 +160,32 @@ font-weight: normal;
     line-height: 120%;
     font-weight: normal;
 }
+.cards-bottom-description{
+    height: 25px;
+    display:block;
+    margin-left: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: normal;
+}
+.cards-bottom-btn{
+    width: 397px;
+    height: 60px;
+    background: #E5BB4F;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #0A0A0A;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+
+}
 .preview-title{
     display: flex;
     justify-content: space-between;
@@ -158,7 +203,7 @@ font-weight: normal;
     margin-top: 11px;
     height: 54px;
     width: 255px;
-    padding: 16px 20px 14px;
+   
     background-color: #F6F6F7;
     display: flex;
     justify-content: center;
