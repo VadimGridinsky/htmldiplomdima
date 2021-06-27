@@ -57,7 +57,10 @@ ul,li{
 }
 .header-middle-background{
     
-    
+
+}
+main{
+    margin: 80px 0px;
 }
 .texts{
     position: absolute;
@@ -141,6 +144,7 @@ font-weight: normal;
 .preview-title{
     display: flex;
     justify-content: space-between;
+    align-self: center;
 }
 
 .preview-text{
@@ -151,10 +155,19 @@ font-weight: normal;
     font-weight: bold;
 }
 .preview-btn{
+    margin-top: 11px;
+    height: 54px;
+    width: 255px;
+    padding: 16px 20px 14px;
+    background-color: #F6F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
     font-weight: bold;
     font-size: 16px;
     line-height: 120%;
+    border-radius: 3px;
 }
 footer{
     background-image: url(img/footer-background.png);
