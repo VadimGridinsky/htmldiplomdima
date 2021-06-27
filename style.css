@@ -186,6 +186,35 @@ font-weight: normal;
     margin-left: 32px;
 
 }
+.preview-list{
+    display: flex;
+    justify-content: space-between;
+}
+.preview-list-item{
+    position: relative;
+}
+.preview-list-item-description{
+    position: absolute;
+    margin: 32px;
+    right: 0;
+    top: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    color: #FFFFFF;
+    
+}
+.preview-list-item-name{
+    margin: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    
+}
 .preview-title{
     display: flex;
     justify-content: space-between;
@@ -213,6 +242,9 @@ font-weight: normal;
     font-size: 16px;
     line-height: 120%;
     border-radius: 3px;
+}
+.bread{
+    margin-top: 160px;
 }
 footer{
     background-image: url(img/footer-background.png);
